@@ -16,11 +16,15 @@
 # Configuration for the Tomcat container
 ---
 tomcat:
-#  version: 9.+
-  version: 8.+
-  repository_root: "{default.repository.root}/tomcat"
+  version: 9.0.27
+  repository_root: https://tomcatford.cfapps.io/apache-tomcat-9.0.27.tar.gz
   context_path: 
   external_configuration_enabled: false
+#  version: 9.+
+#  version: 8.+
+#  repository_root: "{default.repository.root}/tomcat"
+#  context_path: 
+#  external_configuration_enabled: false
 external_configuration:
   version: 1.+
   repository_root: 
