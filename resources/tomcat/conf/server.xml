@@ -29,9 +29,9 @@
   </GlobalNamingResources>
 
   <Service name='Catalina'>
-     <!--- previous configuration
+     <!--- previous configuration -->
         <Connector port='${http.port}' bindOnInit='false' connectionTimeout='20000'/>
-
+     <!--
         <Engine defaultHost='localhost' name='Catalina'>
             <Valve className='org.apache.catalina.valves.RemoteIpValve' protocolHeader='x-forwarded-proto'/>
             <Valve className='org.cloudfoundry.tomcat.logging.access.CloudFoundryAccessLoggingValve'
