@@ -46,8 +46,8 @@
     <Connector port="8080" protocol="HTTP/1.1" 
                connectionTimeout="20000"
                redirectPort="8443" />
-    <!--<Connector port="8443" protocol="HTTP/1.1" SSLEnabled="false"/> -->
-    <Connector port="8443" protocol="HTTP/1.1" SSLEnabled="true" sslEnabledProtocols="TLSv1,TLSv1.1,TLSv1.2" maxThreads="150" scheme="https" secure="true" clientAuth="false" keystoreFile="/home/vcap/app/asm-pdp.jks" keystorePass="password" />
+    <Connector port="8443" protocol="HTTP/1.1" SSLEnabled="false"/>
+    <!--<Connector port="8443" protocol="HTTP/1.1" SSLEnabled="true" sslEnabledProtocols="TLSv1,TLSv1.1,TLSv1.2" maxThreads="150" scheme="https" secure="true" clientAuth="false" keystoreFile="/home/vcap/app/asm-pdp.jks" keystorePass="password" />-->
 
     <!-- Define an AJP 1.3 Connector on port 8009 -->
     <Connector port="8009" protocol="AJP/1.3" redirectPort="8443" />
