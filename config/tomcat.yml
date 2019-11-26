@@ -19,7 +19,7 @@ tomcat:
 #  version: 9.0.27
   version: 8.5.16
   repository_root: https://tomcat-8-5-16.cfapps.io/
-  context_path: /asm-pdp
+  context_path:
   external_configuration_enabled: yes
 #  version: 9.+
 #  version: 8.+
@@ -28,6 +28,7 @@ tomcat:
 #  external_configuration_enabled: false
 external_configuration:
   version: 8.5.16
+  context_path: /asm-pdp
   repository_root: https://tomcat-8-5-16.cfapps.io/
 lifecycle_support:
   version: 3.+
