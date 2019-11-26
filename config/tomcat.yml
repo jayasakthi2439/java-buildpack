@@ -20,7 +20,7 @@ tomcat:
   version: 8.5.16
   repository_root: https://tomcatford.cfapps.io/
   context_path: 
-  external_configuration_enabled: false
+  external_configuration_enabled: true
 #  version: 9.+
 #  version: 8.+
 #  repository_root: "{default.repository.root}/tomcat"
