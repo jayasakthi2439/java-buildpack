@@ -28,7 +28,7 @@ tomcat:
 #  external_configuration_enabled: false
 external_configuration:
   version: 1.+
-  repository_root: https://tomcat-8-5-16.cfapps.io/
+  repository_root:
 lifecycle_support:
   version: 3.+
   repository_root: "{default.repository.root}/tomcat-lifecycle-support"
