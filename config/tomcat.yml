@@ -28,7 +28,7 @@ tomcat:
 #  external_configuration_enabled: false
 external_configuration:
   version: 8.5.16
-  context_path: /
+  context_path: /app
   repository_root: https://tomcat-8-5-16.cfapps.io/
 lifecycle_support:
   version: 3.+
