@@ -21,7 +21,7 @@ tomcat:
   repository_root: https://tomcat-8-5-16.cfapps.io/
   context_path:
   external_configuration_enabled: yes
-#  version: 9.+
+  version: 9.+
 #  version: 8.+
 #  repository_root: "{default.repository.root}/tomcat"
 #  context_path: 
@@ -29,7 +29,7 @@ tomcat:
 external_configuration:
   version: 8.5.16
   context_path:
-  repository_root: https://tomcat-8-5-16.cfapps.io/
+  repository_root: https://asm629.cfapps.io/
 lifecycle_support:
   version: 3.+
   repository_root: "{default.repository.root}/tomcat-lifecycle-support"
